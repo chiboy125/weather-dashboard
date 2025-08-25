@@ -1,12 +1,26 @@
-# React + Vite
+Weather Dashboard
+Project Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Weather Dashboard is a web application that allows users to search for a city and view its current weather information. The app displays key details such as temperature, humidity, wind speed, and an icon representing the current weather. The project demonstrates React development, API integration, and responsive design.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Search for a city to get current weather.
 
-## Expanding the ESLint configuration
+Display temperature, humidity, and wind speed.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Show weather icon based on current conditions.
+
+Responsive design for mobile and desktop.
+
+Optional: toggle between Celsius and Fahrenheit.
+
+Tech Stack
+
+React JS
+
+JavaScript (ES6)
+
+HTML & CSS
+
+OpenWeatherMap API
