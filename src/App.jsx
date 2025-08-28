@@ -73,7 +73,7 @@ export default function App() {
       </main>
 
       <footer className="app-footer">
-        <p>Built with ❤️ using React + OpenWeather API</p>
+        <p>Built by Chiboy using React + OpenWeather API</p>
       </footer>
     </div>
   );

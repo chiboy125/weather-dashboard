@@ -4,21 +4,29 @@ The **Weather Dashboard** is a React-based web application that allows users to 
 
 ---
 
+## 🌐 Live Demo
+👉 [Check out the app here](https://weathercheckbychiboy.netlify.app)
+
+---
+
 ## ✨ Features
 - 🌍 **City Search** – Type a city name to fetch real-time weather data.  
 - 🌡️ **Current Conditions** – Displays temperature, humidity, wind speed, and weather description.  
-- 📅 **Forecast** – Shows a 5-day weather outlook with icons and details.  
 - 📱 **Responsive Design** – Works seamlessly on desktop and mobile devices.  
+- ⚠️ **Error Handling** – Shows friendly messages when a city is not found or data cannot be fetched.  
+- 🕒 **Recent Searches** – Keeps track of the last five cities searched for quick re-access.  
+- ⏳ **Loading Spinner** – Displays a loader while data is being fetched.  
 
 ---
 
 ## 🔎 How It Works
 1. User enters a city name into the search bar.  
 2. The app calls a **Weather API** (like OpenWeatherMap) to retrieve weather data.  
-3. Weather results are displayed in two sections:  
+3. While fetching, a **loading spinner** is shown.  
+4. Weather results are displayed:  
    - **Current Weather Card** – Shows present weather conditions.  
-   - **Forecast Cards** – Displays weather predictions for the upcoming days.  
-4. Data updates automatically whenever a new city is searched.  
+5. If the city is invalid, an **error message** is displayed.  
+6. The last five searches are saved and can be re-clicked to quickly view results again.  
 
 ---
 
@@ -45,22 +53,16 @@ Open your browser and go to http://localhost:3000
 
 🛠️ Technologies Used
 
-    React (Vite setup) – UI framework
-
-    JavaScript (ES6+) – Functionality and logic
-
-    CSS – Custom styling
-
-    Weather API – Data source (e.g., OpenWeatherMap
-
-    )
+React (Vite setup) – UI framework
+JavaScript (ES6+) – Functionality and logic
+CSS – Custom styling
+Weather API – Data source (e.g., OpenWeatherMap)
 
 📌 Future Enhancements
 
-    🌐 Deployment on Vercel or Netlify with a live demo link.
-
-    ☀️ Extra weather details like feels-like temperature, sunrise, and sunset.
-
+    ☀️ Add more weather details like feels-like temperature, sunrise, and sunset.
+    🔄 Option to clear recent searches or expand beyond five.
+    📅 **Forecast** – Shows a 5-day weather outlook with icons and details.  
 📖 Notes
 
     You will need a free Weather API key (for example, from OpenWeatherMap
